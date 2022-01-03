@@ -1,0 +1,145 @@
+.bg-gradient-primary {
+  background-color: #242526;
+  background-image: linear-gradient(180deg,#343434 10%,#343434);
+  background-size: cover;
+}
+
+.bg-white {
+  background-color: #343434!important;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #858796;
+  text-align: left;
+  background-color: #303030;
+}
+
+#wrapper #content-wrapper #content {
+  flex: 1 0 auto;
+  background-color: #303030;
+}
+
+.text-dark {
+  color: #ecefff!important;
+}
+
+footer.sticky-footer {
+  padding: 2rem 0;
+  flex-shrink: 0;
+  display: block;
+}
+
+.sidebar-dark .nav-item .nav-link.active, .sidebar-dark .nav-item .nav-link.active i, .sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:active i, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:focus i, .sidebar-dark .nav-item .nav-link:hover, .sidebar-dark .nav-item .nav-link:hover i {
+  color: #858080;
+  transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(221,221,221,0.75);
+  transition: 0.3s;
+}
+
+.sidebar-dark .nav-item .nav-link {
+  color: hsla(0,0%,100%,.8);
+  transition: 0.3s;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #939393;
+  text-decoration: none;
+  background-color: #333333;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #ddddde;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+@media (min-width:768px) {
+  .d-md-none {
+    display: none!important;
+  }
+}
+
+@media (min-width:1200px) {
+  .offset-xl-3 {
+    margin-left: 25%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -.75rem;
+  margin-left: -.75rem;
+}
+
+form.user .form-control-user {
+  font-size: .8rem;
+  border-radius: 5px;
+  padding: 1.5rem 1rem;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #343434;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #343434;
+  background-clip: border-box;
+  border: 1px solid #777777;
+  border-radius: .35rem;
+}
+
+#wrapper #content-wrapper {
+  background-color: #f8f9fc;
+  width: 100%;
+  overflow-x: clip;
+}
+
+@media (min-width:768px) {
+  .sidebar .nav-item .nav-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    width: 14rem;
+    font-size: .85rem;
+  }
+}
+
+.text-primary {
+  color: #ffffff!important;
+}
+
+.text-black-50 {
+  color: rgba(255,255,255,0.74)!important;
+}
+
